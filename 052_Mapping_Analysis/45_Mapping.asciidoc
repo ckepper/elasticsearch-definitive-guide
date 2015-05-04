@@ -286,6 +286,11 @@ Black-cats <1>
 // SENSE: 052_Mapping_Analysis/45_Mapping.json
 <1> The text we want to analyze is passed in the body.
 
+[NOTE]
+================================================
+To analyze extended (non-ASCII) strings in sense, the characters have to be URL-encoded first.
+================================================
+
 The `tweet` field produces the two terms `black` and `cat`, while the
 `tag` field produces the single term `Black-cats`. In other words, our
 mapping is working correctly.
